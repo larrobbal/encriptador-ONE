@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEncriptador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="title-bar">
+        <img src="assets/img/one-logo.webp" alt="ONEncrypter" class="one-logo">
+    </div>
+    <main>
+        <div class="principal">
+            <div id="encoder" class="encoder-container">
+                <div class="encoder-title"><h1>Introduce el mensaje para codificar.</h1></div>
+                <div class="encoder-field">
+                    <textarea id="encoder-message" class="encoder-message" placeholder="Introduce tu mensaje" rows="12"></textarea>
+                </div>
+                <!--div encoder-alert nos va a funcionar mara mandar una alerta-->
+                <div id="encoder-alert" class="encoder-alert"></div>
+                <div class="encoder-function-container" id="encoder-function-buttons">
+                    <a href="#" class="encoder-button" id="encoder-copy-content">Copiar</a>
+                    <a href="#" class="encoder-button" id="encoder-clear-content">Limpiar</a>
+                </div>
+                <div class="encoder-button-container"><a id="encoder-button" href="#" class="encoder-button">Encriptar</a></div>
+            </div>
+            <div id="decoder" class="encoder-container">
+                <div class="encoder-title"><h1>Mensaje codificado</h1></div>
+                <div class="encoder-field">
+                    <textarea id="decoder-message" class="encoder-message" placeholder="Introduce tu mensaje" rows="12"></textarea>
+                </div>
+                <!--div encoder-alert nos va a funcionar mara mandar una alerta-->
+                <div id="decoder-alert" class="encoder-alert"></div>
+                <div class="encoder-function-container" id="decoder-function-buttons">
+                    <a href="#" class="encoder-button" id="decoder-copy-content">Copiar</a>
+                    <a href="#" class="encoder-button" id="decoder-clear-content">Limpiar</a>
+                </div>
+                <div class="encoder-button-container"><a id="decoder-button" href="#" class="encoder-button">Desencriptar</a></div>
+            </div>
+        </div>
+    </main>
+    <div id="encoder-footer" class="footer">
+        <div class="footer-container">Todos los derechos reservados. aRROBBa</div>
+        <div class="footer-container">Oracle Next Education</div>
+        <div class="footer-container">Ciudad de México, 2023</div>
+    </div>
+</body>
+</html>
